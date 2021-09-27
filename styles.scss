@@ -1,7 +1,61 @@
-h1{
-    text-align: center;
+*{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
 }
 
-p{
-    background-color: gray;
+
+
+body{
+    background-color:#2C2C31;
+    > div{
+        padding: 0px 100px;
+    }
+    div.presentation{
+        text-align: center;
+        color: rgba(255,255,255,0.6);
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        img{
+            width: 300px;
+            height: 300px;
+            border-radius: 200px;
+            box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
+            margin: 10px;
+        }
+        div.presentation-text{
+            text-align: justify;
+            h2{
+                color:rgba(0,102,184,1) ;
+            }
+            .time{
+                font-size: 12px;
+            }
+        }
+    }
+    div.skills{
+        background-color:rgba(0,102,184,1);
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+
+.projectsdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .project{
+        width: 90%;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 3px 2px 0px 1px rgba(0, 0, 0,0.25);
+        margin: 10px;;
+        text-align: center;
+      }
 }
