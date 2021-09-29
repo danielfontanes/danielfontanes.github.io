@@ -9,73 +9,58 @@
 body {
   background-color: #2C2C31;
 }
-
 body > div {
   padding: 0px 100px;
 }
-
 body div.presentation {
   text-align: center;
   color: rgba(255, 255, 255, 0.6);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   height: 100vh;
+  background-image: url(./img/presentation-background.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
-
 body div.presentation img {
   width: 300px;
   height: 300px;
   border-radius: 200px;
-  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
   margin: 10px;
 }
-
 body div.presentation div.presentation-text {
   text-align: justify;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
 }
-
 body div.presentation div.presentation-text h2 {
   color: #0066b8;
 }
-
 body div.presentation div.presentation-text .time {
   font-size: 12px;
 }
-
 body div.skills {
   background-color: #0066b8;
 }
-
 body div.skills img {
   width: 100px;
   height: 100px;
 }
 
 .projectsdiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 .projectsdiv .project {
   width: 90%;
   background-color: white;
   border-radius: 5px;
-  -webkit-box-shadow: 3px 2px 0px 1px rgba(0, 0, 0, 0.25);
-          box-shadow: 3px 2px 0px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 2px 0px 1px rgba(0, 0, 0, 0.25);
   margin: 10px;
   text-align: center;
 }
-/*# sourceMappingURL=styles.css.map */
