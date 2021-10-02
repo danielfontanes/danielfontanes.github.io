@@ -47,10 +47,23 @@ body{
     }
     div.skills{
         background-color:rgba(0,102,184,1);
-        img{
-            width: 100px;
-            height: 100px;
+        h2{
+            text-align: center;
         }
+        .skillsimg{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            img{
+                width: 100px;
+                height: 100px;
+                background-color: #F2F2F2;
+                padding: 10px;
+                margin: 5px;
+                border-radius: 10px;
+            }
+        }
+           
     }
 }
 

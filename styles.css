@@ -46,9 +46,21 @@ body div.presentation div.presentation-text .time {
 body div.skills {
   background-color: #0066b8;
 }
-body div.skills img {
+body div.skills h2 {
+  text-align: center;
+}
+body div.skills .skillsimg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body div.skills .skillsimg img {
   width: 100px;
   height: 100px;
+  background-color: #F2F2F2;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
 }
 
 .projectsdiv {
