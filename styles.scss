@@ -5,20 +5,23 @@
     text-decoration: none;
     color: white;
 }
-
+h2{
+    margin-bottom: 20px;;
+}
 
 
 body{
     background-color:#2C2C31;
     > div{
-        padding: 0px 100px;
+        padding: 40px 100px;
     }
     div.presentation{
-        text-align: center;
         color: rgba(255,255,255,0.6);
         display: flex;
         align-items: center;
+        justify-content: center;
         height: 100vh;
+        padding: 0px 100px;
         background-image: url(./img/presentation-background.webp);
         background-repeat: no-repeat;
         background-position: center;
@@ -45,12 +48,12 @@ body{
             }
         }
     }
-    div.skills{
+    div.knowledge{
         background-color:rgba(0,102,184,1);
         h2{
             text-align: center;
         }
-        .skillsimg{
+        .knowledgeimg{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -65,19 +68,51 @@ body{
         }
            
     }
-}
-
-
-.projectsdiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .project{
-        width: 90%;
-        background-color: white;
-        border-radius: 5px;
-        box-shadow: 3px 2px 0px 1px rgba(0, 0, 0,0.25);
-        margin: 10px;;
+    .projectsdiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .projects{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .project{
+                width: 40%;
+                background-color: grey;
+                border-radius: 5px;
+                box-shadow: 3px 2px 0px 1px rgba(0, 0, 0,0.25);
+                margin: 10px;;
+                text-align: center;
+            }    
+        }
+        
+    }
+    .skillsdiv{
+        background-color:rgba(0,102,184,1);
         text-align: center;
-      }
+        .skills{
+            display: flex;
+            justify-content: center;
+            .skill{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0px 20px;
+                width: 250px;
+                h3{
+                    width: 100%;
+                    color:black;
+                    background-color: white;
+                    padding: 5px 10px;
+                    border: 1px solid black;
+                    border-radius: 10PX;
+                    margin-bottom: 10px;
+                }
+                img{    
+                    width: 150px;
+                }
+            }
+        }
+    }
+
 }

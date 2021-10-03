@@ -6,18 +6,23 @@
   color: white;
 }
 
+h2 {
+  margin-bottom: 20px;
+}
+
 body {
   background-color: #2C2C31;
 }
 body > div {
-  padding: 0px 100px;
+  padding: 40px 100px;
 }
 body div.presentation {
-  text-align: center;
   color: rgba(255, 255, 255, 0.6);
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100vh;
+  padding: 0px 100px;
   background-image: url(./img/presentation-background.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -43,18 +48,18 @@ body div.presentation div.presentation-text h2 {
 body div.presentation div.presentation-text .time {
   font-size: 12px;
 }
-body div.skills {
+body div.knowledge {
   background-color: #0066b8;
 }
-body div.skills h2 {
+body div.knowledge h2 {
   text-align: center;
 }
-body div.skills .skillsimg {
+body div.knowledge .knowledgeimg {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-body div.skills .skillsimg img {
+body div.knowledge .knowledgeimg img {
   width: 100px;
   height: 100px;
   background-color: #F2F2F2;
@@ -62,17 +67,48 @@ body div.skills .skillsimg img {
   margin: 5px;
   border-radius: 10px;
 }
-
-.projectsdiv {
+body .projectsdiv {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.projectsdiv .project {
-  width: 90%;
-  background-color: white;
+body .projectsdiv .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .projectsdiv .projects .project {
+  width: 40%;
+  background-color: grey;
   border-radius: 5px;
   box-shadow: 3px 2px 0px 1px rgba(0, 0, 0, 0.25);
   margin: 10px;
   text-align: center;
+}
+body .skillsdiv {
+  background-color: #0066b8;
+  text-align: center;
+}
+body .skillsdiv .skills {
+  display: flex;
+  justify-content: center;
+}
+body .skillsdiv .skills .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+  width: 250px;
+}
+body .skillsdiv .skills .skill h3 {
+  width: 100%;
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 10PX;
+  margin-bottom: 10px;
+}
+body .skillsdiv .skills .skill img {
+  width: 150px;
 }
