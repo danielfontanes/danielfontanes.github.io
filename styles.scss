@@ -114,5 +114,40 @@ body{
             }
         }
     }
+    .interestsdiv{
+        text-align: center;
+        .interests{
+            display: flex;
+            justify-content: center;
+            .interest{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0px 20px;
+                width: 250px;
+                h3{
+                    width: 100%;
+                    color:black;
+                    background-color: white;
+                    padding: 5px 10px;
+                    border: 1px solid black;
+                    border-radius: 10PX;
+                    margin-bottom: 10px;
+                }
+                img{    
+                    width: 150px;
+                }
+            }
+        }
+    }
+    .networks{
+        img{
+            width: 50px;
+            transition: width 0.4s;
+            &:hover{
+                width: 60px;
+            }
+        }
+    }
 
 }

@@ -112,3 +112,36 @@ body .skillsdiv .skills .skill h3 {
 body .skillsdiv .skills .skill img {
   width: 150px;
 }
+body .interestsdiv {
+  text-align: center;
+}
+body .interestsdiv .interests {
+  display: flex;
+  justify-content: center;
+}
+body .interestsdiv .interests .interest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+  width: 250px;
+}
+body .interestsdiv .interests .interest h3 {
+  width: 100%;
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 10PX;
+  margin-bottom: 10px;
+}
+body .interestsdiv .interests .interest img {
+  width: 150px;
+}
+body .networks img {
+  width: 50px;
+  transition: width 0.4s;
+}
+body .networks img:hover {
+  width: 60px;
+}
