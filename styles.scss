@@ -12,6 +12,7 @@ h2{
 
 body{
     background-color:#2C2C31;
+    
     > div{
         padding: 40px 100px;
     }
@@ -140,12 +141,21 @@ body{
             }
         }
     }
-    .networks{
-        img{
-            width: 50px;
-            transition: width 0.4s;
-            &:hover{
-                width: 60px;
+    .networksdiv{
+        background-color:rgba(0,102,184,1);
+        text-align: center;
+        .networks{
+            a{
+           
+                margin: 20px;
+                img{
+                    width: 50px;
+                    transition: transform 0.2s;
+                    &:hover{
+                        transform: scale(1.2);
+                    }    
+                }
+                
             }
         }
     }

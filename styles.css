@@ -138,10 +138,17 @@ body .interestsdiv .interests .interest h3 {
 body .interestsdiv .interests .interest img {
   width: 150px;
 }
-body .networks img {
-  width: 50px;
-  transition: width 0.4s;
+body .networksdiv {
+  background-color: #0066b8;
+  text-align: center;
 }
-body .networks img:hover {
-  width: 60px;
+body .networksdiv .networks a {
+  margin: 20px;
+}
+body .networksdiv .networks a img {
+  width: 50px;
+  transition: transform 0.2s;
+}
+body .networksdiv .networks a img:hover {
+  transform: scale(1.2);
 }
