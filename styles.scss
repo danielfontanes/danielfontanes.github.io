@@ -6,7 +6,12 @@
     color: white;
 }
 h2{
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
 }
 
 
@@ -15,6 +20,7 @@ body{
     
     > div{
         padding: 40px 100px;
+        text-align: center;
     }
     div.presentation{
         color: rgba(255,255,255,0.6);
@@ -49,11 +55,8 @@ body{
             }
         }
     }
-    div.knowledge{
+    div.knowledge{ 
         background-color:rgba(0,102,184,1);
-        h2{
-            text-align: center;
-        }
         .knowledgeimg{
             display: flex;
             flex-wrap: wrap;
@@ -99,7 +102,7 @@ body{
                 flex-direction: column;
                 align-items: center;
                 margin: 0px 20px;
-                width: 250px;
+                width: 150px;
                 h3{
                     width: 100%;
                     color:black;
@@ -110,7 +113,7 @@ body{
                     margin-bottom: 10px;
                 }
                 img{    
-                    width: 150px;
+                    width: 100px;
                 }
             }
         }
@@ -125,7 +128,7 @@ body{
                 flex-direction: column;
                 align-items: center;
                 margin: 0px 20px;
-                width: 250px;
+                width: 150px;
                 h3{
                     width: 100%;
                     color:black;
@@ -136,7 +139,7 @@ body{
                     margin-bottom: 10px;
                 }
                 img{    
-                    width: 150px;
+                    width: 100px;
                 }
             }
         }

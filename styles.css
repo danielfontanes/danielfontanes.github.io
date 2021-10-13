@@ -8,6 +8,11 @@
 
 h2 {
   margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 100%;
 }
 
 body {
@@ -15,6 +20,7 @@ body {
 }
 body > div {
   padding: 40px 100px;
+  text-align: center;
 }
 body div.presentation {
   color: rgba(255, 255, 255, 0.6);
@@ -50,9 +56,6 @@ body div.presentation div.presentation-text .time {
 }
 body div.knowledge {
   background-color: #0066b8;
-}
-body div.knowledge h2 {
-  text-align: center;
 }
 body div.knowledge .knowledgeimg {
   display: flex;
@@ -98,7 +101,7 @@ body .skillsdiv .skills .skill {
   flex-direction: column;
   align-items: center;
   margin: 0px 20px;
-  width: 250px;
+  width: 150px;
 }
 body .skillsdiv .skills .skill h3 {
   width: 100%;
@@ -110,7 +113,7 @@ body .skillsdiv .skills .skill h3 {
   margin-bottom: 10px;
 }
 body .skillsdiv .skills .skill img {
-  width: 150px;
+  width: 100px;
 }
 body .interestsdiv {
   text-align: center;
@@ -124,7 +127,7 @@ body .interestsdiv .interests .interest {
   flex-direction: column;
   align-items: center;
   margin: 0px 20px;
-  width: 250px;
+  width: 150px;
 }
 body .interestsdiv .interests .interest h3 {
   width: 100%;
@@ -136,7 +139,7 @@ body .interestsdiv .interests .interest h3 {
   margin-bottom: 10px;
 }
 body .interestsdiv .interests .interest img {
-  width: 150px;
+  width: 100px;
 }
 body .networksdiv {
   background-color: #0066b8;
