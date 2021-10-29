@@ -60,14 +60,14 @@ body div.presentation div.presentation-text .time {
   font-size: 12px;
 }
 body div.knowledge {
-  background-color: #0066b8;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 body div.knowledge .knowledgeimg {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-body div.knowledge .knowledgeimg img {
+body div.knowledge .knowledgeimg .knowledgeimgblock img {
   width: 100px;
   height: 100px;
   background-color: #F2F2F2;
@@ -94,7 +94,7 @@ body .projectsdiv .projects .project {
   text-align: center;
 }
 body .skillsdiv {
-  background-color: #0066b8;
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 body .skillsdiv .skills {
@@ -147,7 +147,7 @@ body .interestsdiv .interests .interest img {
   width: 100px;
 }
 body .networksdiv {
-  background-color: #0066b8;
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 body .networksdiv .networks a {

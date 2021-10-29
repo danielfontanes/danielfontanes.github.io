@@ -1,3 +1,6 @@
+$base-color1:#2C2C31;
+$base-color2:rgba(0,0,0,0.5);
+
 *{
     margin:0px;
     padding:0px;
@@ -21,7 +24,7 @@ p{
 
 
 body{
-    background-color:#2C2C31;
+    background-color:$base-color1;
     
     > div{
         padding: 40px 100px;
@@ -61,18 +64,20 @@ body{
         }
     }
     div.knowledge{ 
-        background-color:rgba(0,102,184,1);
+        background-color: $base-color2;
         .knowledgeimg{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            img{
-                width: 100px;
-                height: 100px;
-                background-color: #F2F2F2;
-                padding: 10px;
-                margin: 5px;
-                border-radius: 10px;
+            .knowledgeimgblock{
+                img{
+                    width: 100px;
+                    height: 100px;
+                    background-color: #F2F2F2;
+                    padding: 10px;
+                    margin: 5px;
+                    border-radius: 10px;
+                }
             }
         }
            
@@ -97,7 +102,7 @@ body{
         
     }
     .skillsdiv{
-        background-color:rgba(0,102,184,1);
+        background-color:$base-color2;
         text-align: center;
         .skills{
             display: flex;
@@ -150,7 +155,7 @@ body{
         }
     }
     .networksdiv{
-        background-color:rgba(0,102,184,1);
+        background-color:$base-color2;
         text-align: center;
         .networks{
             a{
