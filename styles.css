@@ -34,7 +34,7 @@ body div.presentation {
   justify-content: center;
   height: 100vh;
   padding: 0px 100px;
-  background-image: url(./img/presentation-background.webp);
+  background-image: url(./img/presentation/presentation-background.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
